@@ -13,7 +13,7 @@ mkdir files
 <h3>  
 supported languages
 </h3>
-```
+
 {
     "af": "afrikaans",
     "sq": "albanian",
@@ -123,4 +123,3 @@ supported languages
     "yo": "yoruba",
     "zu": "zulu"
 }
-```
