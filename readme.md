@@ -13,7 +13,7 @@ mkdir files
 <h3>  
 supported languages
 </h3>
-
+```json
 {
     "af": "afrikaans",
     "sq": "albanian",
@@ -123,3 +123,4 @@ supported languages
     "yo": "yoruba",
     "zu": "zulu"
 }
+```
