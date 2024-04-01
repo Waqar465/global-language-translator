@@ -1,4 +1,5 @@
 from googletrans import Translator
+import googletrans
 import speech_recognition as sr
 import pyttsx3
 import gtts
@@ -49,7 +50,7 @@ def listen_and_translate(target_language):
 
 
 def play_audio_text(translated_text_str, target_language, text):
-
+    # retry for 5 times to translate
     for i in range(5):
         try:
             converted_audio = gtts.gTTS(translated_text_str, lang=target_language)
